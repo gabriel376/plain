@@ -1,4 +1,5 @@
 # plain
+![Example](img/example.png)
 
 ## Usage
 ``` shell
@@ -29,6 +30,7 @@ Use option `--refresh` to refresh it.
 ``` shell
 youtube --query typescript --json | jq '.results | .[0] | .link'
 ```
+![Example JSON](img/example-json.png)
 
 ## Advanced Search
 
